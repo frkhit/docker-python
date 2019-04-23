@@ -325,3 +325,4 @@ interval
 zxing
 shortuuid
 py2neo
+faiss
