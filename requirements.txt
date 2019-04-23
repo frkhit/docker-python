@@ -23,7 +23,7 @@ attrs==17.2.0
 Automat==0.6.0
 Babel==2.5.1
 baidu-aip==2.2.0.0
-barcode==0.6.0
+# barcode==0.6.0
 bcrypt==3.1.4
 beautifulsoup4==4.6.0
 billiard==3.5.0.3
