@@ -1,4 +1,4 @@
-FROM python:3.5
+FROM python:3.6
 MAINTAINER frkhit "frkhit@gmail.com"
 COPY ./requirements.txt ./
 RUN apt-get update && \
@@ -6,4 +6,3 @@ RUN apt-get update && \
     pip install -r requirements.txt && \
     rm -rf /var/lib/apt/lists/* && \
     rm -rf /root/.cache/pip/*
-
