@@ -27,7 +27,10 @@ RUN apt-get update -qqy \
   && chmod 755 /opt/selenium/chromedriver-$CHROME_DRIVER_VERSION \
   && ln -fs /opt/selenium/chromedriver-$CHROME_DRIVER_VERSION /usr/bin/chromedriver \
 
+  # install fonts
+  && apt-get -qqy install ttf-wqy-zenhei ttf-wqy-microhei fonts-droid-fallback fonts-arphic-ukai fonts-arphic-uming \
+  
   # install selenium
-  && pip install selenium \
+  && pip install --upgrade selenium \
   && rm -rf /root/.cache/pip/* \
   && rm -rf /var/lib/apt/lists/* /var/cache/apt/*
