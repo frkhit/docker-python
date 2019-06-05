@@ -1,9 +1,2 @@
-FROM python:3.5
-MAINTAINER frkhit "frkhit@gmail.com"
-COPY ./requirements.txt ./
-RUN apt-get update && \
-    apt-get install -y libopenblas-base libomp-dev python-dev && \
-    pip install -r requirements.txt && \
-    rm -rf /var/lib/apt/lists/* && \
-    rm -rf /root/.cache/pip/*
-
+FROM nvcr.io/nvidia/tensorflow:19.05-py3
+ARG image_copy_version="19.05-py3"
