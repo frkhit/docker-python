@@ -29,7 +29,7 @@ baidu-aip==2.2.0.0
 bcrypt==3.1.4
 beautifulsoup4==4.6.0
 billiard==3.5.0.3
-bleach==1.5.0
+bleach==3.3.0
 bs4==0.0.1
 BTrees==4.4.1
 build-utils==0.1.1
