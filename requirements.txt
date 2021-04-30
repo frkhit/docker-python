@@ -213,7 +213,7 @@ regex==2017.7.28
 requests==2.21.0
 requests-file==1.4.2
 requests-toolbelt==0.8.0
-rsa==3.4.2
+rsa==4.7
 ruamel.yaml==0.15.33
 scikit-learn==0.19.1
 scipy==1.2.1
