@@ -255,7 +255,7 @@ tzlocal==1.4
 ua-parser==0.8.0
 Unidecode==0.4.20
 urllib2-file==0.2.1
-urllib3==1.24.2
+urllib3==1.26.5
 user-agents==1.1.0
 vine==1.1.4
 visitor==0.1.3
